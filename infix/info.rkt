@@ -6,3 +6,6 @@
                   "A simple infix arithmetic expression evaluator"
                   " using brag (beautiful racket AST (abstract syntax"
                   " tree) generator) and a lexer."))
+(define deps '("base"
+               "br-parser-tools-lib"
+               "brag"))
