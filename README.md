@@ -7,18 +7,31 @@ Racket makes it reasonable simple to create your own languages with semantics, b
 the setup / configuration of the module structure up. So, I decided to maintain these small
 boilerplates to give myself a little aid.
 
+
 ## Examples
+
+To run run the examples execute `raco pkg install` inside the corresponding directories or `raco pkg install <./path/to/directory>`.
+
+Then run the accompanying `demo.rkt` files.
+
 
 ### simple
 
 Shows the simple structure of a language (i.e. provides a `read-syntax` function and parses into a module form)
+
 
 ### simple-flavoured
 
 Shows how to create a 'flavoured' language `#lang simple/ci`.
 
 
-## Recommended Bibliography
+### infix
+
+A simple infix expression evaluator featuring a lexer, a parser and an expander module (i.e. semantics definition).
+
+
+
+## Recommended Readings
 
   * [beau­ti­ful racket](https://beautifulracket.com/)
     by [matthew but­t­er­ick](https://beautifulracket.com/about-the-author.html)
